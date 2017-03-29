@@ -26,7 +26,7 @@ app.controller('ApplicationController', function ($scope, $rootScope, $routePara
 			$("#wrapper").toggleClass("toggled");
 		}
 		$rootScope.showmenuitem 	= false;
-		$rootScope.showsubmenuitem  = false;
+		$rootScope.showsubmenuitem  = true;//TODO
 
 		$location.path('/');
 	};
